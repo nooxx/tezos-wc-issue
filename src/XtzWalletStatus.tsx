@@ -21,6 +21,7 @@ const XtzWalletStatus = () => {
       <div>
         {!account ? (
           <div>
+            <p>Network: Mainnet</p>
             <button onClick={connect}>
               Connect wallet
             </button>
